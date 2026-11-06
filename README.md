@@ -95,7 +95,9 @@ Signal| Duration| Meaning
 
 Add your circuit photo to the repository and update the filename below to match your uploaded image.
 
-"Arduino Traffic Light Circuit" (images/traffic-light-circuit.jpg)
+![Project Output](WhatsApp%20Image%202026-10-28%20at%209.25.26%20AM.jpeg)
+
+[View Arduino Code](filename.ino)
 
 📚 Concepts Learned
 
