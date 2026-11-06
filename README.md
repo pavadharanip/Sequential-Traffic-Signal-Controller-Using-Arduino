@@ -1,8 +1,8 @@
-📌 Project Overview
+**📌 Project Overview**
 
 This project simulates a basic traffic signal system using an Arduino UNO and three LEDs: red, yellow, and green. The Arduino controls each LED according to a programmed sequence and time delay, demonstrating how traffic lights operate.
 
-🎯 Objectives
+**🎯 Objectives**
 
 - Understand Arduino UNO programming.
 - Learn digital output control using GPIO pins.
@@ -10,7 +10,7 @@ This project simulates a basic traffic signal system using an Arduino UNO and th
 - Implement sequential control using programmed delays.
 - Gain practical knowledge of embedded systems.
 
-🛠️ Components Required
+**🛠️ Components Required**
 
 Component| Quantity
 Arduino UNO| 1
@@ -22,20 +22,20 @@ Breadboard| 1
 Male-to-male jumper wires| 5 or more
 USB cable| 1
 
-🔌 Circuit Connections
+**🔌 Circuit Connections**
 
 LED| Arduino Pin
 Red LED| Digital pin 10
 Yellow LED| Digital pin 9
 Green LED| Digital pin 8
 
-Connection instructions:
+**Connection instructions:**
 
 - Connect each Arduino digital pin to the corresponding LED through its own 220 Ω or 330 Ω resistor.
 - Connect the short leg (cathode) of each LED to the common GND rail.
 - Connect the breadboard's GND rail to Arduino GND.
 
-💻 Arduino Source Code
+**💻 Arduino Source Code**
 
 int red = 10;
 int yellow = 9;
@@ -67,7 +67,7 @@ void loop() {
   delay(2000);
 }
 
-⚙️ Working Principle
+**⚙️ Working Principle**
 
 1. The Arduino initializes pins 10, 9, and 8 as outputs.
 2. The red LED turns ON for 5 seconds to indicate STOP.
@@ -82,7 +82,7 @@ Signal| Duration| Meaning
 🟢 Green| 5 seconds| Go
 🟡 Yellow| 2 seconds| Get ready
 
-▶️ How to Run the Project
+**▶️ How to Run the Project**
 
 1. Connect the LEDs, resistors, and Arduino UNO according to the connection table.
 2. Connect the Arduino UNO to a computer using a USB cable.
@@ -91,7 +91,7 @@ Signal| Duration| Meaning
 5. Select the correct port under Tools → Port.
 6. Click Upload and observe the LED sequence.
 
-📸 Project Images
+**📸 Project Images**
 
 Add your circuit photo to the repository and update the filename below to match your uploaded image.
 
@@ -99,7 +99,7 @@ Add your circuit photo to the repository and update the filename below to match 
 
 [View Arduino Code](filename.ino)
 
-📚 Concepts Learned
+**📚 Concepts Learned**
 
 - Embedded systems
 - Microcontroller programming
@@ -108,19 +108,16 @@ Add your circuit photo to the repository and update the filename below to match 
 - Timing control using "delay()"
 - Basic circuit design
 
-🚀 Future Enhancements
+**🚀 Future Enhancements**
 
 - Add a pedestrian crossing button.
 - Include a buzzer for pedestrian alerts.
 - Display a countdown timer.
 - Build a miniature traffic signal model.
 
-🏁 Conclusion
+**🏁 Conclusion**
 
 This project demonstrates a simple traffic signal simulation using Arduino UNO and LEDs. It helps beginners understand digital output control, sequential programming, and basic embedded system development.
-
-Note: This is an educational prototype, not a controller for real road traffic signals.
-
 🔖 Technologies Used
 
 - Hardware: Arduino UNO, LEDs, resistors, breadboard
