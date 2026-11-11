@@ -1,4 +1,5 @@
 **TRAFFIC SIGNAL CONTROLLER**
+
 **📌 Project Overview**
 
 This project simulates a basic traffic signal system using an Arduino UNO and three LEDs: red, yellow, and green. The Arduino controls each LED according to a programmed sequence and time delay, demonstrating how traffic lights operate.
@@ -36,38 +37,6 @@ Green LED| Digital pin 8
 - Connect the short leg (cathode) of each LED to the common GND rail.
 - Connect the breadboard's GND rail to Arduino GND.
 
-**💻 Arduino Source Code**
-
-int red = 10;
-int yellow = 9;
-int green = 8;
-
-void setup() {
-  pinMode(red, OUTPUT);
-  pinMode(yellow, OUTPUT);
-  pinMode(green, OUTPUT);
-}
-
-void loop() {
-  // Red light - STOP
-  digitalWrite(red, HIGH);
-  digitalWrite(yellow, LOW);
-  digitalWrite(green, LOW);
-  delay(5000);
-
-  // Green light - GO
-  digitalWrite(red, LOW);
-  digitalWrite(yellow, LOW);
-  digitalWrite(green, HIGH);
-  delay(5000);
-
-  // Yellow light - GET READY
-  digitalWrite(red, LOW);
-  digitalWrite(yellow, HIGH);
-  digitalWrite(green, LOW);
-  delay(2000);
-}
-
 **⚙️ Working Principle**
 
 1. The Arduino initializes pins 10, 9, and 8 as outputs.
@@ -76,7 +45,9 @@ void loop() {
 4. The yellow LED turns ON for 2 seconds to indicate GET READY.
 5. The sequence repeats continuously.
 
-⏱️ Traffic Signal Timing
+ [View Arduino Code](filename.ino)
+
+# ⏱️ Traffic Signal Timing
 
 Signal| Duration| Meaning
 🔴 Red| 5 seconds| Stop
@@ -96,9 +67,6 @@ Signal| Duration| Meaning
 
 Add your circuit photo to the repository and update the filename below to match your uploaded image.
 
-![Project Output](WhatsApp%20Image%202026-10-28%20at%209.25.26%20AM.jpeg)
-
-[View Arduino Code](filename.ino)
 
 **📚 Concepts Learned**
 
@@ -119,7 +87,8 @@ Add your circuit photo to the repository and update the filename below to match 
 **🏁 Conclusion**
 
 This project demonstrates a simple traffic signal simulation using Arduino UNO and LEDs. It helps beginners understand digital output control, sequential programming, and basic embedded system development.
-🔖 Technologies Used
+
+# 🔖 Technologies Used
 
 - Hardware: Arduino UNO, LEDs, resistors, breadboard
 - Software: Arduino IDE
