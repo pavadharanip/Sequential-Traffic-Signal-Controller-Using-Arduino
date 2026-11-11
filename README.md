@@ -1,3 +1,4 @@
+**TRAFFIC SIGNAL CONTROLLER**
 **📌 Project Overview**
 
 This project simulates a basic traffic signal system using an Arduino UNO and three LEDs: red, yellow, and green. The Arduino controls each LED according to a programmed sequence and time delay, demonstrating how traffic lights operate.
