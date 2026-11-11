@@ -1,4 +1,4 @@
-**TRAFFIC SIGNAL CONTROLLER**
+****TRAFFIC SIGNAL CONTROLLER****
 
 **📌 Project Overview**
 
@@ -65,7 +65,7 @@ Signal| Duration| Meaning
 
 **📸 Project Images**
 
-Add your circuit photo to the repository and update the filename below to match your uploaded image.
+![Red Signal Output](./red%20signal.jpeg)
 
 
 **📚 Concepts Learned**
